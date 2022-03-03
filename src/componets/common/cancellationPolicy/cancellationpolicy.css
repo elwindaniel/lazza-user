@@ -1,0 +1,21 @@
+.privcycontainer{
+    padding:0px;
+    margin: 0px;
+    margin-top: 75px;
+    background-color: white;
+    min-height: 500px;
+}
+
+.blueblock{
+    background-color: blue;
+    height: 100px;
+}
+.headerblock{
+    text-align: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 36px;
+    padding-top: 30px;
+    height: 100px;
+    color: black;
+}
+  

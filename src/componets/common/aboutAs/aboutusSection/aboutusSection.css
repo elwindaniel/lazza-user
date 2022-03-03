@@ -1,0 +1,19 @@
+.aboutusSection_leftGrid {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.aboutusSection_rightGrid {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*align-items: center;*/
+}
+
+.aboutusSection_rightGrid_heading {
+  /*padding-top: 10px;*/
+  padding-bottom: 30px;
+}

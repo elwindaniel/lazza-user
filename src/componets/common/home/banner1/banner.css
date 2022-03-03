@@ -1,0 +1,80 @@
+.banner {
+  /* margin-top: 20px; */
+  /* margin-bottom: 20px; */
+}
+.yellowBaner {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.bannersubimg {
+  display: flex;
+  align-items: center;
+
+  margin: 20px;
+}
+.bannersubimg img {
+  width: 125%;
+
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.banners1 {
+  margin-right: -20px;
+}
+.banners2 {
+  margin-left: 24px;
+}
+.awesomeDeals {
+  text-align: center;
+  margin-top: 40px;
+}
+.offerButton {
+  /* left: 11%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.textclass {
+  margin: 10px;
+  font-family: "Open Sans Condensed";
+}
+.buttonClass {
+  border: none;
+  margin-bottom: 20px;
+  padding: 9px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  width: 209px;
+  cursor: pointer;
+}
+.headingtextclass {
+  font-size: 50px;
+  margin: 10px;
+  font-family: "Arial";
+  font-weight: 500;
+}
+.titleTextclass {
+  font-size: 22px;
+  margin: 10px;
+  font-family: "Arial";
+}
+@media screen and (max-width: 755px) {
+  .bannersubimg img {
+    width: 100%;
+  }
+  .awesomeDeals {
+    margin-top: 0%;
+  }
+  .headingtextclass {
+    font-size: 25px;
+    justify-content: center;
+  }
+  .titleTextclass {
+    font-size: 18px;
+  }
+}

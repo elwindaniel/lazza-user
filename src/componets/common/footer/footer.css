@@ -1,0 +1,36 @@
+.footer {
+  background-color: rgba(22, 22, 25, 1);
+  height: 300px;
+}
+.footerdiv {
+  bottom: 0;
+  background-color: #000000;
+  padding: 10px 50px;
+}
+.footerdiv img {
+  width: 50%;
+}
+.socialIcons {
+  display: flex;
+}
+.textclass {
+  margin: 5px;
+  font-family: "Open Sans Condensed";
+  color: #be9621;
+  font-size: 18px;
+}
+.iconcls {
+  font-size: 28;
+}
+@media screen and (max-width: 850px) {
+  .footerdiv {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .socialIcons {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}

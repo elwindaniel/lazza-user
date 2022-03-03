@@ -1,0 +1,63 @@
+.wrpClass {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+.wrpmenuList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.wrpBody {
+  /* padding: 20px; */
+  padding-left: 10vW;
+  padding-right: 10vW;
+
+  margin: 0px 50px;
+}
+.wrpCard {
+  margin: 10px;
+  padding-left: 2vW;
+  padding-right: 2vW;
+}
+.wrpCardImgDiv{
+  height: 200px;
+}
+.wrpCard img {
+  width: 15vw;
+}
+.headingtextclass {
+  font-size: 40px;
+  margin: 10px;
+  font-family: "Arial";
+  font-weight: 500;
+}
+.titleTextclass {
+  font-size: 20px;
+  margin: 10px;
+  font-family: "Arial";
+}
+@media screen and (max-width: 755px) {
+  .wrpBody {
+    padding: 20px;
+    /* background-color: violet; */
+    margin: 0px;
+  }
+  .wrpCard {
+    margin: 20px;
+  }
+  .wrpCard img {
+    width: 100%;
+  }
+  @media screen and (max-width: 750px) {
+    .headingtextclass {
+      font-size: 25px;
+      justify-content: center;
+    }
+    .titleTextclass {
+      font-size: 18px;
+    }
+  }
+}

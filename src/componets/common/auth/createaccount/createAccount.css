@@ -1,0 +1,10 @@
+.createAccount_header {
+  /* background-color: rgba(28, 28, 28, 1); */
+  height: 90px;
+}
+
+.createAccount_heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,24 @@
+.manufaroot {
+  padding: 24px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: absolute;
+}
+.listhere{
+  list-style:none;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  margin-left: -50px;
+}
+.mantext{
+  font-family:'Open Sans Condensed', sans-serif;
+}
+@media screen and (max-width: 750px) {
+  .manufaroot {
+    padding: 0px;
+  }
+}

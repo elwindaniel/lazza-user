@@ -1,0 +1,26 @@
+.myProfile_navbar {
+  height: 90px;
+}
+
+.myProfile_title {
+  display: flex;
+  background-color: rgba(232, 230, 199, 1);
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.myProfile_body {
+  padding: 0px 20px;
+}
+
+.myProfile_sidebar {
+  height: 75vh;
+  flex: 0.2;
+  color: white;
+  margin: 20px;
+  width: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #040404;
+}

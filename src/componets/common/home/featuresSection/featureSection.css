@@ -1,0 +1,9 @@
+.featurepaper {
+  background-color: rgba(250, 207, 140, 1);
+  min-height: 100px;
+  /*height: 100px;*/
+  margin-top: 20px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 6px;
+}

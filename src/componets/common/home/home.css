@@ -1,0 +1,42 @@
+.Carouselclassimg1 {
+  position: absolute;
+  margin-top: 30vh;
+  z-index: 2;
+  margin-left: 65vw;
+}
+
+.Carouselclassimg1 img {
+  width: 125px;
+}
+@media screen and (max-width: 755px) {
+  .Carouselclassimg1 {
+    margin-left: 60vw;
+  }
+}
+
+.cersoleDiv {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+@media all and (max-width: 576px) {
+  .Carouselclassimg1 {
+      display: none;
+  }
+}
+.blkbtnxy{
+  background-color: #000;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 150px;
+}
+.blkbtnxy:focus{
+  text-decoration: none;
+  color: white;
+}
+.pdlstbtncont{
+  text-align: center;
+  width: 100%;
+}

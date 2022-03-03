@@ -1,0 +1,30 @@
+/* .offerMainBody {
+  padding-top: 20px;
+} */
+
+.offerBody {
+  padding: 10px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+.offerBodyImg Img {
+  height: 116px;
+}
+.divroot {
+  margin-right: 20px;
+}
+.cardBody {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+@media screen and (max-width: 600px) {
+  .offerBodyImg Img {
+    width: 80vw;
+  }
+  .divroot {
+    margin-right: 0px;
+  }
+  .cardBody {
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,11 @@
+import axios from "axios";
+import { API_URL } from "./constants";
+
+// axios.defaults.baseURL = API_URL;
+// axios.defaults.headers['Authorization']
+
+const instance = axios.create({
+  baseURL: `${API_URL}`,
+});
+
+export default instance;

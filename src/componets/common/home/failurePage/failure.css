@@ -1,0 +1,27 @@
+.failimg {
+  height: 50%;
+  margin: 25vh;
+}
+.divfailimg {
+  height: 75vh;
+  align-items: center;
+  justify-content: center;
+  text-align: "center";
+}
+.container {
+  align-items: center;
+  justify-content: center;
+  text-align: "center";
+}
+@media screen and (max-width: 755px) {
+  .failimg {
+    width: 100%;
+    margin-top: 20vh;
+    margin-left: 0vh;
+    margin-right: 0vh;
+  }
+  .divfailimg {
+    height: 50vh;
+    align-items: center;
+  }
+}

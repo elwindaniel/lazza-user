@@ -1,0 +1,82 @@
+.varientDropdown {
+  transition: 300ms;
+  /* width: 90px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 8px;
+  padding-right: 5px;
+  border-radius: 15px 0 0 0; */
+  height: 55px;
+  position: relative;
+}
+
+.varientDropdownOptions {
+  transition: 300ms;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 8px;
+  position: absolute;
+  top: 55px;
+  z-index: 100;
+  min-width: 200px;
+}
+
+.avatar {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+}
+
+/* .varientDropdownOptionsWithGrid {
+  padding: 8px;
+  position: absolute;
+  top: 55px;
+  z-index: 100;
+  display: grid;
+  grid-template-columns: 90px 90px 90px;
+}
+
+.varientDropdownOptionsName {
+  padding-top: 2px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin-top: 7px;
+} */
+
+.offer {
+  margin: 12px 0;
+  padding: 3px 3px;
+  /* border-style: solid;
+  border-width: 3px; */
+  height: 35px;
+  width: 66px;
+  /* border-color: red;
+  border-radius: 0px 15px 15px 0px; */
+  /*color: red;*/
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;*/
+  /*align-items: center;*/
+}
+
+.offer_subDiv {
+  height: 23px;
+  background-color: rgb(230, 185, 8);
+  border-radius: 0px 15px 15px 0px;
+  padding: 0.5px 0px 0px 2px;
+  color: white;
+  font-size: medium;
+  letter-spacing: 1.5px;
+  display: flex;
+  align-items: center;
+}
+
+/* .card_addtocartConfirm {
+  scroll: none;
+} */
+
+.card_addtocartConfirm::-webkit-scrollbar {
+  display: none;
+}
